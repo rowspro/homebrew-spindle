@@ -12,5 +12,8 @@ cask "spindle" do
 
   app "Spindle.app"
 
-  zap trash: "~/Library/Application Support/SeekDownloader"
+  zap trash: [
+    "~/Library/Application Support/Spindle",
+    "~/Library/Application Support/SeekDownloader",
+  ]
 end
