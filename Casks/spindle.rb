@@ -1,9 +1,9 @@
 cask "spindle" do
-  arch arm: "AppleSilicon", intel: "3a2558d2dcec3db54bb73a3155cf475d7ee13ba81c20c4bf25f876ecf4937225"
+  arch arm: "AppleSilicon", intel: "dfb4a11e0b01131bd4c6547cb8aba111d3e451e90bf7fd0484243c3b07f48762"
 
-  version "1.2.1"
-  sha256 arm:   "18aacc44345a9b80e90cff903016fe07957aebe64bed19fe6218b1c4641f9038",
-         intel: "3a2558d2dcec3db54bb73a3155cf475d7ee13ba81c20c4bf25f876ecf4937225"
+  version "1.2.2"
+  sha256 arm:   "b55abf68dbed5bc25e5b927ec973a677447710442291c91e09459ab106a202c7",
+         intel: "dfb4a11e0b01131bd4c6547cb8aba111d3e451e90bf7fd0484243c3b07f48762"
 
   url "https://github.com/rowspro/Spindle/releases/download/v#{version}/Spindle-macOS-#{arch}.zip"
   name "Spindle"
